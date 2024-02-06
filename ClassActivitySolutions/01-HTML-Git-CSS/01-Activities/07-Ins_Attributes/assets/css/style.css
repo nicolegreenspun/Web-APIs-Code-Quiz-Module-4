@@ -1,0 +1,18 @@
+.lesson  {
+  background-color: #333;
+}
+
+#paragraph-1 {
+  color: red;
+  background-color: white;
+}
+
+#paragraph-2 {
+  color: darkslateblue;
+  background-color: darkorange;
+}
+
+#paragraph-3 {
+    color: white;
+    background-color: red;
+}
