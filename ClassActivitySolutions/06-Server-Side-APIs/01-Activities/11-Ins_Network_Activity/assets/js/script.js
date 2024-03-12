@@ -1,0 +1,20 @@
+var requestUrl = 'https://api.github.com/orgs/nodejs/repos';
+var badRequestUrl = 'https://api.github.com/orgs/nodejddd/repad';
+
+fetch(requestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log('vvvvvvvvv working URL vvvvvvvvv')
+    console.log(data);
+  });
+
+fetch(badRequestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.log('vvvvvvvv Bad URL vvvvvvvvv')
+    console.log(data);
+  })
